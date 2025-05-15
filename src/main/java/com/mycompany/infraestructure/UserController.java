@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.mycompany.glassfishwebapp.infraestructure;
+package com.mycompany.infraestructure;
 
-import com.mycompany.glassfishwebapp.application.UserUseCase;
-import com.mycompany.glassfishwebapp.domain.model.User;
-import com.mycompany.glassfishwebapp.domain.service.RoleService;
-import com.mycompany.glassfishwebapp.domain.service.UserService;
-import com.mycompany.glassfishwebapp.domain.service.UserUseCaseImpl;
+import com.mycompany.application.UserUseCase;
+import com.mycompany.domain.model.User;
+import com.mycompany.domain.service.RoleService;
+import com.mycompany.domain.service.UserService;
+import com.mycompany.domain.service.UserUseCaseImpl;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
